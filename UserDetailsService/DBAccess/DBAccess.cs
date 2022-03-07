@@ -6,7 +6,8 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace UserDetailsService.DBAccess
+
+namespace UserDetailsService
 {
     public class DBAccess
     {
@@ -138,7 +139,7 @@ namespace UserDetailsService.DBAccess
 
             return ds;
         }
-        protected DataSet GetDataSet(string procedureName, List<DbParameter> parameters, CommandType commandType = CommandType.StoredProcedure)
+        public DataSet GetDataSet(string procedureName, List<DbParameter> parameters, CommandType commandType = CommandType.StoredProcedure)
         {
             DataSet ds = new DataSet();
 

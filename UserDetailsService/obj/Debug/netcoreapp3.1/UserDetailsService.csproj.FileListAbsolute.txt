@@ -230,3 +230,4 @@ C:\Users\nishu\source\repos\ravityagi1981\UserDetailsService\UserDetailsService\
 C:\Users\nishu\source\repos\ravityagi1981\UserDetailsService\UserDetailsService\obj\Debug\netcoreapp3.1\UserDetailsService.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\nishu\source\repos\ravityagi1981\UserDetailsService\UserDetailsService\obj\Debug\netcoreapp3.1\UserDetailsService.csproj.CoreCompileInputs.cache
 C:\Users\nishu\source\repos\ravityagi1981\UserDetailsService\UserDetailsService\obj\Debug\netcoreapp3.1\UserDetailsService.genruntimeconfig.cache
+C:\Users\nishu\source\repos\ravityagi1981\UserDetailsService\UserDetailsService\obj\Debug\netcoreapp3.1\UserDetailsService.csproj.AssemblyReference.cache
