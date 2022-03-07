@@ -11,7 +11,7 @@ namespace UserDetailsService.Models
         public string fname { get; set; }
         public string mname { get; set; }
         public string lname { get; set; }
-        public DateTime DOB { get; set; }
+        public DateTime? DOB { get; set; }
         public string city { get; set; }
         public string state { get; set; }
         public string country { get; set; }

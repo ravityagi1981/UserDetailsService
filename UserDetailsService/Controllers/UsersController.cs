@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using UserDetailsService.middleware;
+using UserDetailsService.Models;
 
 namespace UserDetailsService.Controllers
 {
@@ -11,12 +13,11 @@ namespace UserDetailsService.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
+       
         [HttpGet]
-        public IEnumerable<string> Get()
+        public List<UserViewModel> Get()
         {
-
-
-            return new string[] { "value1", "value2" };
+            return new BLayer().GetUsers( BLayer.ConnectionType.ORM);
         }
     }
 }
